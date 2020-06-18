@@ -1,1 +1,37 @@
-//
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: grey;
+  font-family: sans-serif;
+
+  .header {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background: green;
+    p{
+      font-weight:600;
+      margin: auto;
+    }
+  }
+
+  .content{
+    display:inline-table;
+    width: 100vw;
+    height: 75vh;
+    h2{
+      width: 100vw;
+      margin:auto;
+    }
+  }
+  .footer{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background: lightblue;
+    p{
+      font-weight:400;
+      margin: auto;
+    }
+  }
+}

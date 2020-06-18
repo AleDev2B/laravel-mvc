@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: grey;
+  font-family: sans-serif;
+}
+
+body .header {
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  background: green;
+}
+
+body .header p {
+  font-weight: 600;
+  margin: auto;
+}
+
+body .content {
+  display: inline-table;
+  width: 100vw;
+  height: 75vh;
+}
+
+body .content h2 {
+  width: 100vw;
+  margin: auto;
+}
+
+body .footer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background: lightblue;
+}
+
+body .footer p {
+  font-weight: 400;
+  margin: auto;
+}
+
